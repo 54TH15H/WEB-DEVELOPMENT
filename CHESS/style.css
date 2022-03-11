@@ -1,0 +1,58 @@
+header {
+    color: brown;
+}
+body {
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.outer {
+    border:1px solid black;
+    border-radius: 2px;
+    padding: 2px;
+    width: 630px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inner {
+    border:1px solid black;
+    border-radius: 2px;
+    padding: 2px;
+    width: 624px;
+    height: 493px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.boxeven ,.boxodd {
+    display: flex;
+    border: 1px solid black;
+    margin: 5px;
+    width:80px;
+    height: 50px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.boxeven:nth-child(even){
+    background-color: rgb(148, 146, 146);
+}
+.boxodd:nth-child(odd){
+    background-color: rgb(148, 146, 146);
+}
+.boxeven:hover,.boxodd:hover{background-color: chartreuse;}
+
+.hovered {
+    border: 2px solid black;
+    border-style: dashed;
+}
+
+.hold {
+    border: 1px solid black;
+}
+
